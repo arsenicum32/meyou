@@ -1,0 +1,96 @@
+button.orangeButton {
+  width: 50%;
+  height: 20%;
+  background-color: Tomato;
+  border-radius: 0px;
+  border: transparent;
+  font-size: 14px;
+}
+
+button.orangeButton:hover {
+  -webkit-animation: transform 2s;
+          animation: transform 2s;
+}
+.cardBlock:hover , .textBlock:hover{
+  -webkit-animation: transform 3s;
+          animation: transform 3s;
+}
+
+
+@-webkit-keyframes transform {
+  7.5% {
+    -webkit-transform: scale3D(0.8, 0.8, 0.8);
+            transform: scale3D(0.8, 0.8, 0.8);
+  }
+  15% {
+    -webkit-transform: scale3D(1.2, 1.2, 1.2);
+            transform: scale3D(1.2, 1.2, 1.2);
+  }
+  22.5% {
+    -webkit-transform: scale3D(0.95, 0.95, 0.95);
+            transform: scale3D(0.95, 0.95, 0.95);
+  }
+  30% {
+    -webkit-transform: scale3D(1.05, 1.05, 1.05);
+            transform: scale3D(1.05, 1.05, 1.05);
+  }
+  37.5%, 50% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  }
+  60% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  }
+  75% {
+    -webkit-transform: scale3D(0.7, 0.7, 0.7);
+            transform: scale3D(0.7, 0.7, 0.7);
+  }
+  85% {
+    -webkit-transform: scale3D(1.1, 1.1, 1.1);
+            transform: scale3D(1.1, 1.1, 1.1);
+  }
+  100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  }
+}
+
+@keyframes transform {
+  7.5% {
+    -webkit-transform: scale3D(0.8, 0.8, 0.8);
+            transform: scale3D(0.8, 0.8, 0.8);
+  }
+  15% {
+    -webkit-transform: scale3D(1.2, 1.2, 1.2);
+            transform: scale3D(1.2, 1.2, 1.2);
+  }
+  22.5% {
+    -webkit-transform: scale3D(0.95, 0.95, 0.95);
+            transform: scale3D(0.95, 0.95, 0.95);
+  }
+  30% {
+    -webkit-transform: scale3D(1.05, 1.05, 1.05);
+            transform: scale3D(1.05, 1.05, 1.05);
+  }
+  37.5%, 50% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  }
+  60% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  }
+  75% {
+    -webkit-transform: scale3D(0.7, 0.7, 0.7);
+            transform: scale3D(0.7, 0.7, 0.7);
+  }
+  85% {
+    -webkit-transform: scale3D(1.1, 1.1, 1.1);
+            transform: scale3D(1.1, 1.1, 1.1);
+  }
+  100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  }
+}

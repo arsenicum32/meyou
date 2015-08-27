@@ -1,0 +1,134 @@
+@import url('http://fonts.googleapis.com/css?family=Ubuntu+Mono&subset=latin,cyrillic')
+
+body
+  margin 0
+  padding 0
+  font-family 'Ubuntu Mono'
+
+.forDesktop
+  display none
+  @media screen and (min-width : 1200px)
+    display block
+  width 50vw
+  height 100vh
+  position fixed
+  top 0
+  right 0
+  text-align center
+
+.main
+  background AliceBlue
+  @media screen and (orientation : portrait)
+    background AliceBlue
+  @media screen and (min-width : 1200px)
+    width 50vw
+  width 100vw
+  height 100vh
+  -webkit-flex-wrap wrap
+  display -webkit-flex
+  -webkit-justify-content center//space-around
+  overflow-y scroll
+  -webkit-align-self: flex-end //auto | flex-start | flex-end | center | baseline | stretch
+  -webkit-box-orient: horizontal
+  -webkit-box-direction: normal
+  .gridE
+    height inherit
+    width 25%
+    @media screen and (orientation : portrait)
+      width 50%
+    @media screen and (min-width : 1200px)
+      width 50%
+.fullTemp
+  width inherit
+  height inherit
+  margin 0
+.cardBlock
+  @media screen and (orientation : portrait)
+    width 48vw
+    height 48vw
+    margin 1vw
+  width 24vw
+  height 24vw
+  margin 0.5vw
+  background white
+  display block
+.ORG
+  border 8px dashed rgb(51,51,51)
+  display: -webkit-flex
+  -webkit-flex-direction:  column
+  -webkit-flex-flow: column nowrap
+  -webkit-justify-content: center
+  -webkit-align-items: center
+  text-align center
+.textBlock
+  -webkit-transition: 0.5s
+  @media screen and (orientation : portrait)
+    width: 48vw
+    min-height: 48vw
+    max-height: 96vw
+  margin: 0.5vw auto
+  background: white
+  border: 4px solid rgb(51,51,51)
+  display: -webkit-flex
+  width: 24vw
+  min-height: 24vw
+  max-height: 48vw
+  overflow-x: hidden
+  overflow-y: scroll
+  .front p
+    text-align: justify
+    margin: 7%
+    overflow-x: hidden
+    overflow-y: scroll
+  div
+    @media screen and (orientation : portrait)
+      width: 48vw
+    display block
+    width 24vw
+    height inherit
+    -webkit-flex-shrink 0
+  .back
+    background red
+    overflow-y: hidden
+
+.backText
+  display: -webkit-flex
+  -webkit-flex-direction: column
+  -webkit-flex-wrap: nowrap
+  -webkit-justify-content: flex-start
+  -webkit-align-content: stretch
+  -webkit-align-items: flex-start
+  text-align center
+  &:nth-child(1)
+    order 0
+    -webkit-flex 0 1 auto
+    -webkit-align-self flex-end
+  div
+    width 100%
+    height 30%
+    order: 0
+    -webkit-flex: 0 1 auto
+    -webkit-align-self: center
+
+
+.menCard
+  overflow-y scroll
+  div
+    width inherit
+    height inherit
+    background red
+  .black
+    background black
+.voteLive
+  display: -webkit-flex
+  -webkit-flex-direction:  column
+  -webkit-flex-flow: column nowrap
+  -webkit-justify-content: center
+  -webkit-align-items: center
+  //background: AliceBlue
+  border: 3px solid tomato
+  img
+    position absolute
+    width inherit
+    height inherit
+    margin-top -12.5vw

@@ -1,0 +1,41 @@
+<template name="main">
+  <div class='main'>
+    <div class='gridE'>
+    {{> men}}
+    {{> voteLive}}
+    {{> ad}}
+    {{> photo}}
+      <div class='cardBlock'></div>
+      <div class='cardBlock'></div>
+      {{> textBlock}}
+      <div class='cardBlock'></div>
+      {{> textBlock}}
+      <div class='cardBlock'></div>
+    </div>
+    <div class='gridE'>
+      {{> messageFromORG}}
+      {{> photo}}
+      {{> ad}}
+      <div class='cardBlock'></div>
+      {{> textBlock}}
+      <div class='cardBlock'></div>
+      {{> men}}
+      <div class='cardBlock'></div>
+      {{> voteLive}}
+      {{> ad}}
+    </div>
+  </div>
+  <div class="forDesktop">
+    <h1>КОНТЕНТ ДЛЯ НОРМАЛЬНОЙ WEB ВЕРСИИ</h1>
+    <h3>тут как вариант могут быть:</h3>
+    <ul style="height: 50vh;line-height: 40px">
+      <li>превьюха презентации</li>
+      <li>голосования и вся информация об плитке</li>
+      <li>расширенная информация, допустим лист пользователей (при наведении на чарт) кто проголосовал за ту или иную
+      колонку</li>
+      <li>меню и инфа о компании</li>
+      <li>инструменты ораторов и личный кабинет</li>
+      <li>просто красивая визуализация данных</li>
+    </ul>
+  </div>
+</template>
